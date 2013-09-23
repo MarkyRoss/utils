@@ -28,7 +28,6 @@ int main(int argc, char* argv[])
 		return 0;
 	}
 
-	/*
 	pid_t pid = fork();
 	if(pid < 0)
 	{
@@ -40,7 +39,6 @@ int main(int argc, char* argv[])
 		printf("%d\n", pid);
 		return 0;
 	}
-	*/
 	char* args[argc];
 	for(int i = 0; i < argc-1; i++)
 	{
