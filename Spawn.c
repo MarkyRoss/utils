@@ -45,7 +45,6 @@ int main(int argc, char* argv[])
 		args[i] = argv[i + 1];
 	}
 	args[argc-1] = NULL;
-	int err = execv(argv[1], args);
-	printf("%d \n", err);
+	execv(argv[1], args);
 	return 0;
 }
