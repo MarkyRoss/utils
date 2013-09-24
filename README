@@ -1,1 +1,13 @@
 Just some random things that I use day in - day out, I have placed them up incase someone may find them useful.
+
+
+Chunker will divide up files into x amount of chunks and assemble them. My use for it is to upload insanely big files at 30GB odd
+
+chunker [-a:-d] <number of chunks> <file>
+
+-a option will assemble and -d will disassemble
+
+
+Spawn will fork and execute the command in the background. I normally use it in conjunction with sudo, I like it better than screen.
+
+spawn <command>
